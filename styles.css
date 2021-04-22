@@ -1,0 +1,50 @@
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+}
+
+
+.background-image {
+    background-image: url("https://th.bing.com/th/id/R66e4b5e465d00632d08c923fb0be6337?rik=zz1aBn5SnHKAhg&riu=http%3a%2f%2fdogfoose.com%2fwp-content%2fuploads%2f2010%2f02%2fWonders1.jpg&ehk=6vdRi8JXvVjUd%2fOqAcjNzmQth10KEXRmp1vL2VZ9yGo%3d&risl=&pid=ImgRaw");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+}
+
+.cards-container {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr; 
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row-gap: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.card {
+    place-self: center;
+    width: 250px;
+    height: 300px;
+    border: 5px solid black;
+    border-radius: 5%;
+    text-align: center;
+
+    background-image: url("https://media-cdn.tripadvisor.com/media/photo-s/12/df/57/7e/agra-taj-mahal.jpg");
+    background-repeat: no-repeat;
+    box-shadow: 5px 5px 5px;
+    font-size: large;
+    padding: 5px;
+}
+
+.city-searcher-title{ 
+    font-weight: bold;
+    font-size: 20em;
+    color: blue;
+}
